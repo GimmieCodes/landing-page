@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
 ul,li{
     display: flex;
@@ -55,7 +56,13 @@ a {
 .img-boxes{
     display: flex;
     flex-direction: column;
-    gap: ;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info-text{
+    display: flex;
+    justify-content: center;
 }
 .box{
     width: 100px;
@@ -63,4 +70,19 @@ a {
     border-style: solid;
     border-radius: 10%;
     border-color: #3882f6;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    background: #e5e7eb
+}
+.quote{
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 1000px;
 }
