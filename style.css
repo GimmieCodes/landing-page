@@ -111,3 +111,13 @@ a {
 .signuptext,.subtext{
     color:#f9faf8;
 }
+.subtext{
+    font-weight: lighter;
+}
+.Footer{
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
