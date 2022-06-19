@@ -6,7 +6,7 @@ body {
 }
 ul,li{
     display: flex;
-    gap:8px;
+    gap:30px;
 }
 a {
     text-decoration: none;
@@ -20,7 +20,7 @@ a {
     align-items: center;
     color: #e5e7eb;
     font-size: 24px;
-    gap: 60px;
+    gap: 32px;
 }
 .body{
     display: flex;
@@ -32,7 +32,7 @@ a {
     justify-content: space-evenly;
     padding: 32px;
     background:#1f2937;
-    height: 200px;
+    height: 300px;
 }
 .cont-left {
     display: flex;
@@ -58,7 +58,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 32px;
-    height: 200px;
+    height: 300px;
 }
 .box-container{
     display: flex;
@@ -87,11 +87,12 @@ a {
     width: 150px;
     text-align: center;
     color: #1f293799;
+    margin-top: 8px;
     
 }
 .box{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
     border-radius: 10%;
     border-color: #3882f6;
@@ -103,7 +104,7 @@ a {
     align-items: center;
     padding: 32px;
     background: #e5e7eb;
-    height: 200px;
+    height: 300px;
 }
 .quote{
     display: flex;
@@ -122,7 +123,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 32px;
-    height: 200px;
+    height: 300px;
 }
 .signup{
     display: flex;
