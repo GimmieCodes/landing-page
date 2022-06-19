@@ -126,6 +126,7 @@ a {
     background:#3882f6;
     border-radius: 10px;
     padding:32px;
+    gap: 100px;
 }
 .signuptext{
     display: flex;
@@ -154,4 +155,21 @@ a {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+}
+.button{
+    background: #3882f6;
+    margin-top: 8px;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    color: #f9faf8;
+}
+.button,.button2{
+    padding: 8px;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
