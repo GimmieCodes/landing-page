@@ -20,6 +20,7 @@ a {
     align-items: center;
     color: #e5e7eb;
     font-size: 24px;
+    gap: 60px;
 }
 .body{
     display: flex;
@@ -31,7 +32,7 @@ a {
     justify-content: space-evenly;
     padding: 32px;
     background:#1f2937;
-    flex: 1;
+    height: 200px;
 }
 .cont-left {
     display: flex;
@@ -40,7 +41,7 @@ a {
     flex-grow: 0;
     align-items: flex-start;
     width: 500px;
-    color: #f9faf8;
+    color: #f9faf880;
     font-size: 18px;
 }
 .img {
@@ -57,7 +58,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 32px;
-    flex:1;
+    height: 200px;
 }
 .box-container{
     display: flex;
@@ -85,6 +86,7 @@ a {
     align-items: center;
     width: 150px;
     text-align: center;
+    color: #1f293799;
     
 }
 .box{
@@ -101,7 +103,7 @@ a {
     align-items: center;
     padding: 32px;
     background: #e5e7eb;
-    flex: 1;
+    height: 200px;
 }
 .quote{
     display: flex;
@@ -120,6 +122,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 32px;
+    height: 200px;
 }
 .signup{
     display: flex;
@@ -146,6 +149,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 32px;
+    color: #f9faf8  ;
 }
 .Header-links{
     font-size: 18px;
@@ -159,6 +163,7 @@ a {
 .button{
     background: #3882f6;
     margin-top: 8px;
+    color: #f9faf8;
 }
 .button2{
     display: flex;
